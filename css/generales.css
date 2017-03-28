@@ -1,0 +1,88 @@
+.mdl-layout-title > img{
+	height: 56px;
+}
+.mdl-layout--large-screen-only > a:hover{
+	/*border-bottom: solid 4px rgb(15, 105, 96);*/
+	border-bottom: solid 4px rgba(255, 255, 255, .9);
+}
+.mp-drawer{
+	border-right: none;
+}
+.mp-drawer-separator{
+	height: 2px;
+	background-color: #dcdcdc;
+}
+.mp-title{
+	text-align: center;
+    height: 110px;
+    background-color: #009688;
+    color: #ffffff;
+}
+.mp-logo{
+	position: absolute;
+    bottom: 10px;
+    right: inherit;
+    left: initial;
+}
+.mp-slide{
+	background: url('../images/fondo.jpg') center no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	color: #ffffff;
+}
+.mp-slogan{
+	font-size: 72px;
+	padding-top: 200px;
+}
+.mp-slogan-sub{
+	font-size: 24px;
+	padding-top: 28px;
+}
+.mp-trip{
+	color: #767777;
+	font-size: 36px;
+	padding-top: 450px;
+}
+.mp-section-taller{
+	position: relative;
+	padding: 8px 0px;
+	max-width: 1044px;
+	margin: 0 auto;
+}
+.mp-section-taller .mp-section-title{
+	padding: 36px 0px;
+	text-align: center;
+}
+#grid-taller .mdl-card__media{
+	overflow: hidden;
+	background: transparent;
+}
+#grid-taller .mdl-card__media img{
+	width: 100%;
+}
+.mp-information{
+	position: relative;
+	background-size: cover;
+	background: url('../images/slide.png') center bottom no-repeat;
+	height: 600px;    
+	width: 100%;
+}
+.mp-information-bg{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #1b5e20;
+	opacity: 0.8;
+}
+.mp-information-text{
+	color: #ffffff;
+	margin-left: 25%;
+	max-width: 800px;
+	padding: 24px;
+	text-align: left;
+}
+.mp-botton-youtube{
+	background-color: #b71c1c;
+	color: #ffffff;
+}
